@@ -1,3 +1,7 @@
+## Print Screen of the Project
+
+[![frogmore-students.png](https://i.postimg.cc/Z5NQGFrK/frogmore-students.png)](https://postimg.cc/jDsvNfgG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
