@@ -23,9 +23,12 @@ var students = [
 // Header
 let length = students.length
 
-let passedEnglish = students.filter(eng5) 
-let lenghtPassedEnglish = passedEnglish.lenght
-// let passedMaths
+let passedEnglish = students.filter(value =>{
+  return value.english>=5;}).length
+
+let passedMaths = students.filter(value =>{
+  return value.maths>=5;}).length
+
 
 // Card1
 let topEnglish = students.sort((student1,student2) => student2.english-student1.english).slice(0,3);
@@ -57,8 +60,8 @@ function App() {
     <div className="App">
       <h1>Frogmore School Grade 8 Class</h1>
       <p>There are {length} students enrolled</p>
-      <p>{lenghtPassedEnglish} students passed English</p>
-      {/* <p>{lenghtPassedMaths} students passed Maths</p> */}
+      <p>{passedEnglish} students passed English</p>
+      <p>{passedMaths} students passed Maths</p> 
     
     <div className="cardGroup">
 {/* First Card */}
